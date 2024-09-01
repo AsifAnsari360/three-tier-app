@@ -26,6 +26,10 @@ The `Kubernetes-Manifests-Files` directory holds Kubernetes manifests for deploy
 ### Step 2: EC2 Setup
 - Launch an Ubuntu instance in your favourite region (eg. region `us-west-2`).
 - SSH into the instance from your local machine.
+- Clone this repository using below command:
+```bash
+git clone https://github.com/AsifAnsari360/three-tier-app.git
+```
 
 ### Step 3: Install AWS CLI v2
 ``` shell
